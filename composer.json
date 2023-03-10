@@ -1,0 +1,27 @@
+{
+    "name": "kovyakin/test",
+    "description": "description",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kovyakin",
+            "email": "email@example.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "kovyakin\\test\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "kovyakin\\test\\Providers\\TestServiceProvider"
+            ]
+        }
+    }
+}
